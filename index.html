@@ -20,10 +20,12 @@
             </div>
             <nav class="main-nav">
                 <a href="#" class="nav-link active" data-target="home-view">БАСТЫ БЕТ</a>
+                <a href="#methods" class="nav-link" data-target="home-view">ӘДІС-ТӘСІЛДЕР</a>
                 <a href="#topics" class="nav-link" data-target="home-view">ТАҚЫРЫПТАР</a>
                 <a href="#flashcards" class="nav-link" data-target="flashcards-view">ФЛЕШ-КАРТАЛАР</a>
                 <a href="#dictionary" class="nav-link" data-target="dictionary-view">СӨЗДІК</a>
-                <a href="#test" class="nav-link" data-target="test-view">ТЕСТ</a>
+                <a href="#test" class="nav-link" data-target="test-view">ЖАТТЫҒУЛАР</a>
+                <a href="#audio" class="nav-link" data-target="audio-view">ТЫҢДАЛЫМ / АЙТЫЛЫМ</a>
             </nav>
         </div>
         <div class="header-line"></div>
@@ -77,6 +79,37 @@
                 </div>
                 <div class="hero-image">
                     <img src="assets/img/hero.png" alt="Classroom learning Kazakh">
+                </div>
+            </section>
+
+            <!-- METHODS SECTION -->
+            <section id="methods" class="methods-section fade-up" style="padding: 60px 0; max-width: 1200px; margin: 0 auto; text-align: center;">
+                <div class="section-header">
+                    <h2>Оқыту әдіс-тәсілдері</h2>
+                    <div class="squiggly-line"></div>
+                    <p>Тілді тиімді меңгеруге арналған заманауи тәсілдер</p>
+                </div>
+                    <div class="methods-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 0 20px;">
+                    <div class="method-card glass-effect" style="padding: 30px; border-radius: 16px; text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div class="method-icon" style="font-size: 2.5rem; margin-bottom: 20px;"><i class="fa-solid fa-comments" style="background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i></div>
+                        <h3 style="margin-bottom: 15px; font-weight: 700; color: var(--text-main);">Коммуникативтік әдіс</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem;">Қазақ тілін тек грамматика арқылы емес, нақты сөйлесу жағдайлары арқылы үйрену. Бұл өмірде еркін қарым-қатынас жасауға көмектеседі.</p>
+                    </div>
+                    <div class="method-card glass-effect" style="padding: 30px; border-radius: 16px; text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div class="method-icon" style="font-size: 2.5rem; margin-bottom: 20px;"><i class="fa-solid fa-puzzle-piece" style="background: var(--gradient-orange); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i></div>
+                        <h3 style="margin-bottom: 15px; font-weight: 700; color: var(--text-main);">Модульдік оқыту</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem;">Оқу материалын жекелеген модульдерге (блоктарға) бөліп оқыту. Бұл ақпаратты жүйелі түрде қабылдауға мүмкіндік береді.</p>
+                    </div>
+                    <div class="method-card glass-effect" style="padding: 30px; border-radius: 16px; text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div class="method-icon" style="font-size: 2.5rem; margin-bottom: 20px;"><i class="fa-solid fa-gamepad" style="background: var(--gradient-red); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i></div>
+                        <h3 style="margin-bottom: 15px; font-weight: 700; color: var(--text-main);">Ойын технологиясы</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem;">Оқу процесін ойын элементтері арқылы қызықтырақ ету. Флеш-карталар мен викториналар осының жарқын бір мысалы.</p>
+                    </div>
+                    <div class="method-card glass-effect" style="padding: 30px; border-radius: 16px; text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div class="method-icon" style="font-size: 2.5rem; margin-bottom: 20px;"><i class="fa-solid fa-brain" style="background: var(--gradient-purple); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i></div>
+                        <h3 style="margin-bottom: 15px; font-weight: 700; color: var(--text-main);">Сын тұрғысынан ойлау</h3>
+                        <p style="color: var(--text-light); font-size: 0.95rem;">Оқушының мәтінді талдау, өз пікірін білдіру және логикалық шешімдер қабылдау қабілеттерін дамытады.</p>
+                    </div>
                 </div>
             </section>
 
@@ -184,8 +217,8 @@
                     <i class="fa-solid fa-arrow-left"></i> АРТҚА ҚАЙТУ
                 </button>
                 <div class="section-header">
-                    <h2>Білімді тексеру</h2>
-                    <p>9-сынып бағдарламасы бойынша интерактивті тест</p>
+                    <h2>Білімді тексеру (Жаттығулар мен Тест)</h2>
+                    <p>9-сынып бағдарламасы бойынша интерактивті жаттығулар мен тест сұрақтары</p>
                 </div>
 
                 <div id="quiz-container">
@@ -205,7 +238,7 @@
                     </div>
                 </div>
 
-                <div id="quiz-results" style="display:none; text-align: center;">
+                <div id="quiz-results" class="glass-effect" style="display:none; text-align: center; padding: 40px; border-radius: 20px; border: 1px solid var(--primary-green);">
                     <div class="result-icon" id="r-icon"></div>
                     <h3 class="result-score">Нәтижеңіз: <span id="r-score">0</span> / <span id="r-total">10</span></h3>
                     <p id="r-message" class="result-message"></p>
@@ -217,6 +250,108 @@
             </div>
         </div>
 
+        <!-- AUDIO VIEW (Тыңдалым мен Айтылым) -->
+        <div id="audio-view" class="view-section pattern-bg flashcards-view-container">
+            <div class="flashcards-wrapper wide-wrapper glass-effect">
+                <button class="back-btn" data-target="home-view">
+                    <i class="fa-solid fa-arrow-left"></i> АРТҚА ҚАЙТУ
+                </button>
+                <div class="section-header">
+                    <h2>Тыңдалым және Айтылым</h2>
+                    <p>Қазақ тілін естіп түсіну және дұрыс сөйлеу дағдыларын дамыту</p>
+                </div>
+                
+                <div style="display: flex; gap: 30px; flex-wrap: wrap;">
+                    <!-- Тыңдалым бөлімі -->
+                    <div class="glass-effect" style="flex: 1; min-width: 300px; padding: 30px; border-radius: 16px; border-top: 5px solid var(--primary-green); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <h3 style="color: var(--primary-green); margin-bottom: 20px;"><i class="fa-solid fa-headphones"></i> Тыңдалым (Аудирование)</h3>
+                        
+                        <div class="audio-item" style="margin-bottom: 25px;">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; padding: 3px 10px; font-size: 0.75rem;">I Тоқсан</div>
+                            <h4 style="margin-top:5px;">1. Мәтін: «Қазақ халқының қонақжайлығы»</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 10px;">Мәтінді мұқият тыңдап, негізгі ойды түсініңіз.</p>
+                            <audio controls style="width: 100%;">
+                                <source src="assets/audio/placeholder.mp3" type="audio/mpeg">
+                                Сіздің браузеріңіз аудио ойнатуды қолдамайды.
+                            </audio>
+                            <details style="margin-top: 10px; cursor: pointer;">
+                                <summary style="color: var(--primary-green); font-weight: 600;">Мәтіннің транскриптін көру</summary>
+                                <p style="margin-top: 10px; font-size: 0.95rem; background: #E8F5E9; padding: 15px; border-radius: 8px; border-left: 3px solid var(--primary-green);">Қазақ халқы ежелден қонақжай халық. Үйге келген қонақты төрге отырғызып, ең дәмді тамағын береді. Қонаққа құрмет көрсету – қазақ мәдениетінің басты ерекшеліктерінің бірі.</p>
+                            </details>
+                        </div>
+
+                        <div class="audio-item" style="margin-bottom: 25px;">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; padding: 3px 10px; font-size: 0.75rem;">II Тоқсан</div>
+                            <h4 style="margin-top:5px;">2. Диалог: «Қолөнер шеберханасында»</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 10px;">Зергер мен тұтынушының сөйлесуі.</p>
+                            <audio controls style="width: 100%;">
+                                <source src="assets/audio/placeholder.mp3" type="audio/mpeg">
+                            </audio>
+                            <details style="margin-top: 10px; cursor: pointer;">
+                                <summary style="color: var(--primary-green); font-weight: 600;">Диалог транскрипті</summary>
+                                <div style="margin-top: 10px; font-size: 0.95rem; background: #E8F5E9; padding: 15px; border-radius: 8px; border-left: 3px solid var(--primary-green);">
+                                    <p><strong>Тұтынушы:</strong> Сәлеметсіз бе! Мына күміс білезіктің бағасы қанша?</p>
+                                    <p><strong>Зергер:</strong> Жүз мың теңге. Бұл таза күмістен, қолдан жасалған.</p>
+                                    <p><strong>Тұтынушы:</strong> Өте әдемі екен. Оюлары да ерекше.</p>
+                                </div>
+                            </details>
+                        </div>
+
+                        <div class="audio-item" style="margin-bottom: 25px;">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; padding: 3px 10px; font-size: 0.75rem;">III Тоқсан</div>
+                            <h4 style="margin-top:5px;">3. Мәтін: «Атаманның ақыры» фильмі</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 10px;">Қазақ киносының шоқтығы биік туындысы туралы.</p>
+                            <audio controls style="width: 100%;">
+                                <source src="assets/audio/placeholder.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        
+                        <div class="audio-item">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; padding: 3px 10px; font-size: 0.75rem;">IV Тоқсан</div>
+                            <h4 style="margin-top:5px;">4. Мәтін: «Астана маржаны - Бәйтерек»</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 10px;">Монументтің сәулеттік құндылығы және тарихы.</p>
+                            <audio controls style="width: 100%;">
+                                <source src="assets/audio/placeholder.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+
+                    <!-- Айтылым бөлімі -->
+                    <div class="glass-effect" style="flex: 1; min-width: 300px; padding: 30px; border-radius: 16px; border-top: 5px solid var(--secondary-orange); transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <h3 style="color: var(--secondary-orange); margin-bottom: 20px;"><i class="fa-solid fa-microphone"></i> Айтылым (Говорение)</h3>
+                        
+                        <div class="speaking-item" style="margin-bottom: 20px; background: #FFF9C4; padding: 20px; border-radius: 12px;">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; background:#fff; color:#D68A10;">Рөлдік ойын (Role-play)</div>
+                            <h4 style="margin-bottom: 15px; color: #D68A10; margin-top:5px;">1-ситуация: Дастархан басында</h4>
+                            <p style="font-size: 0.95rem; margin-bottom: 10px;">Сіз қонаққа келдіңіз. Досыңызбен бірге диалог құрыңыз:</p>
+                            <ul class="styled-list">
+                                <li>Үй иесі қонаққа тамақ ұсынады (шұбат, қазы, бауырсақ).</li>
+                                <li>Сіз оның дәмді екенін айтып, алғыс білдіресіз.</li>
+                                <li>Жаңа тамақ атауларын (ет, қымыз, құрт) қолданыңыз.</li>
+                            </ul>
+                        </div>
+
+                        <div class="speaking-item" style="margin-bottom: 20px; background: #E8F5E9; padding: 20px; border-radius: 12px;">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; background:#fff; color:var(--primary-green);">Монолог</div>
+                            <h4 style="margin-bottom: 15px; color: var(--primary-hover); margin-top:5px;">2-тапсырма: Менің сүйікті фильмім</h4>
+                            <p style="font-size: 0.95rem; margin-bottom: 10px;">Төмендегі сұрақтар негізінде 1 минуттық монолог дайындаңыз:</p>
+                            <ul class="styled-list">
+                                <li>Сіз қандай қазақстандық киноларды білесіз?</li>
+                                <li>Сүйікті актеріңіз немесе режиссеріңіз кім?</li>
+                                <li>Бұл фильм сізге неліктен ұнады?</li>
+                            </ul>
+                        </div>
+
+                        <div class="speaking-item" style="background: #F9FBFC; border: 2px solid #E1E8ED; padding: 20px; border-radius: 12px;">
+                            <div class="term-badge inline-badge" style="position:relative; margin-bottom:10px; background:var(--primary-green); color:#fff;">Сәулет өнері</div>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main); margin-top:5px;">3-тапсырма: Суретке қарап әңгімелеу</h4>
+                            <img src="assets/img/hero.png" alt="Сөйлеу жаттығуы" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                            <p style="font-size: 0.95rem;">Суретке мұқият қараңыз. 5-6 сөйлем құрастырып, өз ойыңызды ауызша жеткізіңіз. <em>Тірек сөздер: ұлттық нақыш, әдемі көрініс, заманауи сәулет, тарихи ескерткіш.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
     <footer class="footer">
@@ -245,7 +380,7 @@
             <div class="teacher-section"
                 style="text-align: center; margin-top: 50px; display: flex; flex-direction: column; align-items: center;">
                 <h3
-                    style="color: var(--primary-blue); margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">
+                    style="color: var(--primary-green); margin-bottom: 20px; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">
                     Жетекші</h3>
                 <div class="author-card">
                     <div class="author-image-wrapper">
